@@ -1,6 +1,12 @@
+function Navbar(props) {
+  return (
+    <h1 className="text-3xl font-bold underline">Hey, {props.name}.</h1>
+  );
+}
+
 function App() {
   return (
-    <h1>Test</h1>
+    <Navbar name="Shahzain"/>
   );
 }
 
